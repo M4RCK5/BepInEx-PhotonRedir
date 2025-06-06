@@ -15,13 +15,7 @@
 
 ## Notes
 - Installing **BepinEx**: [Video](https://www.youtube.com/watch?v=Pe4ZNLyoEpw&t=35) (x2 speed)
-- if youre using **R.E.P.O** build from [OFME](https://online-fix.me), modify your `dlllist.txt` after installing **BepInEx**
-```
-SteamOverlay64.dll
-Onlinefix64.dll
-MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
-REPO_Data\Managed\PhotonRealtime.net.org
-```
+- if youre using [**R.E.P.O.**](https://steamdb.info/app/3241660/) build from [OFME](https://online-fix.me), remove `Custom.net` from `dlllist.txt`
 
 ---
 

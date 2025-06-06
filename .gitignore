@@ -1,5 +1,4 @@
-src/main/obj/
-src/main/out/
-src/main/bin/
-
+src/obj/
+src/out/
+src/bin/
 ignore/

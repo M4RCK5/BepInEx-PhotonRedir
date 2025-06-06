@@ -50,9 +50,9 @@ namespace PhotonAppIDRedirector
             if (!string.IsNullOrWhiteSpace(Plugin.PhotonRegion))
             {
                 BepInEx.Logging.Logger.CreateLogSource("Photon Redirector").LogWarning($"Overriding region from '{region}' to '{Plugin.PhotonRegion}'");
-                region = Plugin.PhotonRegion; // Modify the region parameter
+                region = Plugin.PhotonRegion; 
             }
-            return true; // Let the original method run with the modified region
+            return true; 
         }
     }
 
@@ -62,7 +62,7 @@ namespace PhotonAppIDRedirector
         static void Prefix(ref string appId, ref AuthenticationValues authValues)
         {
             appId = Plugin.PhotonAppid;
-            BepInEx.Logging.Logger.CreateLogSource("Photon Redirector").LogInfo($"Redirecting Photon Traffic"); // .LogInfo($"Redirecting Photon Traffic to AppID: {appId}"); << for debugging
+            BepInEx.Logging.Logger.CreateLogSource("Photon Redirector").LogInfo($"Redirecting Photon Traffic");
             if (authValues != null)
             {
                 authValues.AuthType = CustomAuthenticationType.None;

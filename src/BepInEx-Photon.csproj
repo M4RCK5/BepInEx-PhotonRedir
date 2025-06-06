@@ -5,19 +5,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BepInEx">
-      <HintPath>..\core\BepInEx.dll</HintPath>
+      <HintPath>..\lib\BepInEx.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>..\core\0Harmony.dll</HintPath>
+      <HintPath>..\lib\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
         <Reference Include="PhotonRealtime">
-      <HintPath>..\..\REPO_Data\Managed\PhotonRealtime.dll</HintPath>
+      <HintPath>..\lib\PhotonRealtime.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\REPO_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\lib\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\REPO_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\lib\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
 </Project>

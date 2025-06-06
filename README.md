@@ -10,7 +10,7 @@
 1. Go to [Photon Engine](https://www.photonengine.com/).
 2. Sign up or log in to your account.
 3. Navigate to the [Photon Dashboard](https://dashboard.photonengine.com/).
-4. ![dashboardguide](img/dashboard.jpg)
+4. ![dashboardguide](dashboard.jpg)
 5. Copy the **App ID** and use it in `photon-redirect.cfg`.
 
 ## Notes
@@ -21,7 +21,6 @@ SteamOverlay64.dll
 Onlinefix64.dll
 MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
 REPO_Data\Managed\PhotonRealtime.net.org
-winhttp.dll
 ```
 
 ---
@@ -34,7 +33,7 @@ winhttp.dll
 ### **Steps**
    ```
    git clone https://github.com/awc21/BepInEx-PhotonRedir.git
-   cd BepInEx-PhotonRedir\src\main
+   cd BepInEx-PhotonRedir/src
    dotnet build -c release -o out
    ```
    

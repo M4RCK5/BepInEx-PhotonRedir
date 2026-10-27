@@ -13,10 +13,6 @@
 4. ![dashboardguide](dashboard.jpg)
 5. Copy the **App ID** and use it in `photon-redirect.cfg`.
 
-## Notes
-- Installing **BepinEx**: [Video](https://www.youtube.com/watch?v=Pe4ZNLyoEpw&t=35) (x2 speed)
-- if youre using [**R.E.P.O.**](https://steamdb.info/app/3241660/) build from [OFME](https://online-fix.me), remove `Custom.net` from `dlllist.txt`
-
 ---
 
 ## **Building from source**
